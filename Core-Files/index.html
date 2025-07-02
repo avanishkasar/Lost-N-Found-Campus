@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Lost & Found</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Campus Lost & Found</h1>
+
+  <button id="loginBtn">Sign in with Google</button>
+  <button id="logoutBtn" style="display: none;">Sign out</button>
+
+  <form id="lostForm">
+    <input type="text" id="itemTitle" placeholder="What did you lose?" required>
+    <textarea id="itemDesc" placeholder="Short description" required></textarea>
+    <button type="button" id="aiHelpBtn">🧠 Help me describe it</button>
+    <button type="submit">Submit</button>
+  </form>
+  <h2>All Lost Items</h2>
+<div id="itemsList">
+  <!-- Lost items will appear here -->
+</div>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>

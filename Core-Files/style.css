@@ -1,0 +1,90 @@
+/* Base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #001f3f; /* Navy Blue */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Inputs, Textareas, Buttons */
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+button {
+  background: #4285F4;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #3367d6;
+}
+
+#aiHelpBtn {
+  background: #34A853;
+}
+
+#aiHelpBtn:hover {
+  background: #2c8a44;
+}
+
+/* Container for form inputs */
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(5px);
+}
+
+/* Items display */
+#itemsList {
+  margin-top: 30px;
+}
+
+.item-box {
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Logged-in mode color change */
+.logged-in body {
+  background-color: #1e3932; /* Starbucks green */
+}
+
+/* Status message */
+#statusMsg {
+  font-size: 0.9rem;
+  color: #FFD700;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-style: italic;
+}
